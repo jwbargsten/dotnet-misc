@@ -1,0 +1,14 @@
+<!-- :snippet newest-dotnet-settings -->
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <!-- ... -->
+    <!-- mandatory nullable typing -->
+    <Nullable>enable</Nullable>
+    <LangVersion>9.0</LangVersion>
+    <WarningsAsErrors>CS8618;CS8765;CS8625</WarningsAsErrors>
+    <WarningsAsErrors>CS8618;CS8765;CS8625;CS8603;CS8602;CS8600;CS8604;CS8622;CS8620</WarningsAsErrors>
+    <!-- ... -->
+  </PropertyGroup>
+</Project>
+<!-- :endsnippet -->
