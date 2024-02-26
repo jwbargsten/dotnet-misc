@@ -1,0 +1,6 @@
+code: 
+  comment_prefix: "<!-- "
+  comment_suffix: " -->"
+  lang: xml
+  root: ""
+  glob: "**/*.csproj"
